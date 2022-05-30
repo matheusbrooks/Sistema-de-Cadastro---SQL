@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAT 0.0</title>
+
+            <style type="text/css">
+                .style1 {
+                color: #ff0000;
+                font-size: x-small;
+                } </style>
+
+<body>
+    <h1>SAT 0.0</h1>
+<form id="cadastro" name="cadastro" method="post" action="cadastro.php">
+<table width="625">
+    <tr>
+        <td width="69">Nome:</td>
+        <td width="546"> <input name="nome" type="text" id="nome" size="70" maxlength="60" />
+</tr>
+    <tr>
+        <td>DDD:</td>
+        <td><input name="ddd" type="text" id="ddd" size="4" maxlength="2" placeholder="XX"/>
+            Telefone:
+            <input name="telefone" type="text" id="telefone" placeholder="XXXXX  XXXX"/>
+            <span class="style1">Apenas números</span></td>
+</tr>
+    <tr>
+            <td>Endereço:</td>
+            <td><input name="endereco" type="text" id="endereco" size="70" maxlength="70"/>
+</tr>
+            <td>Cidade:</td>
+            <td><select name="cidade" id="cidade">
+                <option value=""> Selecione </option>
+                <option value="atibaia"> Atibaia </option>
+                <option value="braganca"> Bragança Paulista </option>
+                <option value="bjp"> Bom Jesus dos Perdões </option>
+                <option value="itatiba"> Itatiba </option>
+                <option value="nazare"> Nazaré Paulista </option>
+                <option value="piracaia"> Piracaia </option>
+                    </select>
+</tr>
+    <tr>
+            <td>Bairro:</td>
+            <td><input name="bairro" type="text" id="bairro" maxlength="20" />
+</tr>
+    <tr>
+            <td colspan="8" align="center"><p>
+            <input name="cadastrar" type="submit" id="cadastrar" value="Cadastrar"/>
+            <input name="limpar" type="reset" id="limpar" value="Limpar"/></td>
+</tr>
+            </table>
+        </form>
+    </body>
+</html>
